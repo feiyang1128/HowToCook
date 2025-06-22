@@ -26,4 +26,4 @@ jobs:
         run: |
           git checkout master
           git merge upstream/master --allow-unrelated-histories -m "🔄 Auto-sync from upstream"
-          git push origin main
+          git push origin master
