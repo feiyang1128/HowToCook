@@ -19,7 +19,7 @@ jobs:
 
       - name: Add upstream and fetch
         run: |
-          git remote add upstream https://github.com/mqiancheng/freecloud.git
+          git remote add upstream https://github.com/Anduin2017/HowToCook.git
           git fetch upstream
 
       - name: Merge upstream changes
